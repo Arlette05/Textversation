@@ -127,3 +127,17 @@ function goNext(){
 
 currentPage = currentPage + 1
 }
+var likes = 0
+function click(){
+  if icon.src = "empty.png"
+  likes=likes+1
+  icon.src="fill.png"
+  p.innerterHTML=likes
+
+  else{
+likes = likes -1
+incon.src = "empty.png"
+p.innerHTML=likes
+
+  }
+}
