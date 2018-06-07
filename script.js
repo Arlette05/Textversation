@@ -125,19 +125,23 @@ function goNext(){
   document.querySelector("#message-3").innerHTML = getProfileTemplate( youth_data.message_6 )
 
 
-currentPage = currentPage + 1
+currentPage = currentPage + 1;
 }
-var likes = 0
-function click(){
-  if icon.src = "empty.png"
-  likes=likes+1
-  icon.src="fill.png"
-  p.innerterHTML=likes
+var likes = 0;
+var icon = document.getElementById('icon');
+var counter = document.getElementById('counter');
 
-  else{
-likes = likes -1
-incon.src = "empty.png"
-p.innerHTML=likes
+function updateLikes() {
+  if (icon.dataset.like === "false") {
+    likes = likes + 1;
+    icon.src = "images/fill.png";
+    counter.innerHTML = likes;
+    icon.dataset.like = "true"
 
+  } else {
+    likes = likes - 1;
+    icon.dataset.like = "false"
+    icon.src = "images/empty.png";
+    counter.innerHTML = likes;
   }
 }
