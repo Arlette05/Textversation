@@ -14,12 +14,12 @@ var youth_data = {
    topic: "EdSex"
   },
   message_2: {
-   imageURL: "https://i.ytimg.com/vi/ifrk0315PDs/hqdefault.jpg",
+   imageURL: "http://www.fusionyearbooks.com/wp-content/uploads/2016/03/Teacher-memes-32-giving-direction-to-students.jpg",
     text: "When I was in 1st grade, I got in trouble for something in class. I don't remember what, but it was something trivial. Her punishment was to lock me in the dark classroom during lunch so I couldn't eat. Shit was fucked up.",
    topic: ""
   },
   message_3: {
-    imageURL:"https://s3.amazonaws.com/media.youthradio.org/wp-content/uploads/2018/04/04112957/Celeste-Aguilar.jpg",
+    imageURL:"https://s.hdnux.com/photos/73/11/26/15504786/3/920x920.jpg",
     text: "This is a fake SMS",
     topic: "Students bully Teacher"
   },
@@ -145,3 +145,6 @@ function updateLikes() {
     counter.innerHTML = likes;
   }
 }
+
+updateLikes()
+updateLikes()
