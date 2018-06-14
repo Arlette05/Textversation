@@ -124,7 +124,6 @@ function goNext(){
   document.querySelector("#message-2").innerHTML = getProfileTemplate( youth_data.message_5 )
   document.querySelector("#message-3").innerHTML = getProfileTemplate( youth_data.message_6 )
 
-
 currentPage = currentPage + 1;
 }
 var likes = 0;
@@ -145,6 +144,3 @@ function updateLikes() {
     counter.innerHTML = likes;
   }
 }
-
-updateLikes()
-updateLikes()
